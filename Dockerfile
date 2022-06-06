@@ -3,7 +3,7 @@ RUN apt update -y
 RUN apt install default-jdk -y
 RUN apt install maven -y
 RUN apt install tomcat9 -y
-RUN apt install git
+RUN apt install git -y
 RUN git clone https://github.com/ripienaar/free-for-dev.git
 RUN cd boxfuse-sample-java-war-hello/
 RUN mvn package
