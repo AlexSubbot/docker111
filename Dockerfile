@@ -11,6 +11,8 @@ RUN cd target/
 RUN cp hello-1.0.war /var/lib/tomcat9/webapps/
 RUN /var/lib/tomcat9/webapps/
 
+CMD ["mvn"]
+
 EXPOSE 80
 
 
