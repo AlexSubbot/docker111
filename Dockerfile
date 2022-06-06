@@ -1,4 +1,4 @@
-FROM ubuntu 20.04
+FROM ubuntu 20.04:1
 RUN apt update -y
 RUN apt install default-jdk -y
 RUN apt install maven -y
