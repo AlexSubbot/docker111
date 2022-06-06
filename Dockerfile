@@ -10,10 +10,10 @@ RUN mvn package -y
 RUN cd target/
 RUN cp hello-1.0.war /var/lib/tomcat9/webapps/
 RUN /var/lib/tomcat9/webapps/
-
+EXPOSE 8080
 CMD ["mvn"]
 
-EXPOSE 80
+
 
 
 
